@@ -1,0 +1,20 @@
+{
+  "name": "peoplelistui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "npm": "^5.4.2",
+    "og": "0.0.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14",
+    "web3": "^1.0.0-beta.22"
+  },
+  "scripts": {
+    "copy-json": "cp ../build/contracts/People.json ./src",
+    "start": "npm run copy-json && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
