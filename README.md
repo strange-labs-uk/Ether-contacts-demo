@@ -54,5 +54,5 @@ With a bit of luck you should be good to go. Note: if you are using VPN, don't f
 Now switch to the development console window and run:
 ```bash
 var people = People.deployed()
-people.then(function(o){o.addPerson("jo", "bloggs", "bobloggs@example.com", 20)})
+people.then(function(o){return o.addPerson("jo", "bloggs", "bobloggs@example.com", 20)})
 ```
